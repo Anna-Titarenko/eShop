@@ -6,7 +6,7 @@ class ProdactCart {
     render() {
         return `<div class="cart">
         <div class="photo">
-            <img src="/img/foto.jpg" class="photo-cart" >
+            <img src="./img/foto.jpg" class="photo-cart" >
             <h3 class="title">${this.title}</h3>
             <p class="price">${this.price}</p>
             <button class="btn">Добавить</button>
